@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6BEFE2C5-6199-4D93-9368-4F366D816DCE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Tetris_Math.My.MyApplication</StartupObject>
-    <RootNamespace>Tetris_Math</RootNamespace>
-    <AssemblyName>Tetris_Math</AssemblyName>
+    <StartupObject>TetrisPlus.My.MyApplication</StartupObject>
+    <RootNamespace>TetrisPlus</RootNamespace>
+    <AssemblyName>TetrisPlus</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -37,7 +37,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Tetris_Math.xml</DocumentationFile>
+    <DocumentationFile>TetrisPlus.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -47,7 +47,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Tetris_Math.xml</DocumentationFile>
+    <DocumentationFile>TetrisPlus.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

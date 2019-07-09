@@ -42,9 +42,9 @@ Partial Class Welcome
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.Tetris_Math.My.Resources.Resources.tetris
-        Me.PictureBox1.Image = Global.Tetris_Math.My.Resources.Resources.tetris
-        Me.PictureBox1.InitialImage = Global.Tetris_Math.My.Resources.Resources.tetris
+        Me.PictureBox1.BackgroundImage = Global.TetrisPlus.My.Resources.Resources.tetris
+        Me.PictureBox1.Image = Global.TetrisPlus.My.Resources.Resources.tetris
+        Me.PictureBox1.InitialImage = Global.TetrisPlus.My.Resources.Resources.tetris
         Me.PictureBox1.Location = New System.Drawing.Point(0, 27)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(800, 407)
@@ -56,7 +56,7 @@ Partial Class Welcome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.Tetris_Math.My.Resources.Resources.tetris
+        Me.BackgroundImage = Global.TetrisPlus.My.Resources.Resources.tetris
         Me.ClientSize = New System.Drawing.Size(800, 420)
         Me.Controls.Add(Me.MaterialRaisedButton1)
         Me.Controls.Add(Me.PictureBox1)

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TetrisPlus
+</name>
+</assembly>
+<members>
+<member name="T:TetrisPlus.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.Blue_Screen_of_Death">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.ifs_load">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.ifs_tune">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.MaterialSkin">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.tetris">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.tetris1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:TetrisPlus.My.Resources.Resources.Untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:TetrisPlus.GameGrid">
+ <summary>
+ Extended DataGridView 
+ DoubleBuffered. Restricts user selection of cells.
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:TetrisPlus.GameGrid.OnRowPrePaint(System.Windows.Forms.DataGridViewRowPrePaintEventArgs)">
+ <summary>
+ OnRowPrePaint
+ Avoid DGV cell focussing
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:TetrisPlus.GameGrid.WndProc(System.Windows.Forms.Message@)">
+ <summary>
+ WndProc
+ Avoid DGV focussing, and catch Keypresses
+ </summary>
+ <param name="m"></param>
+</member>
+<member name="M:TetrisPlus.Shape.GetAsyncKeyState(System.Int32)">
+ <summary>
+ API function and Constants used to detect Shift keydown
+ </summary>
+ <param name="vkey"></param>
+ <returns></returns>
+</member>
+<member name="T:TetrisPlus.ShapePreview">
+ <summary>
+ Used for displaying a shape preview
+ </summary>
+</member>
+</members>
+</doc>
